@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>$(PRODUCT_COPYRIGHT)</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>fbapi</string>
+			<string>fb-messenger-api</string>
+			<string>fbauth2</string>
+			<string>fbshareextension</string>
+		</array>
+
+		<key>GoogleSignIn</key>
+		<dict>
+			<key>ClientId</key>
+			<string></string>
+		</dict>
+		<key>GIDClientID</key>
+		<string></string>
+
+		<!-- FACEBOOK&GOOGLE CONFIG START HERE -->
+		<key>CFBundleURLTypes</key>
+			<array>
+				<dict>
+						<key>CFBundleURLSchemes</key>
+						<array>
+							<string></string>
+						</array>
+				</dict>
+		
+				<dict>
+					<key>CFBundleTypeRole</key>
+					<string>Editor</string>
+					<key>CFBundleURLSchemes</key>
+					<array>
+						<string></string>
+					</array>
+				</dict>
+			</array>
+
+		<key>com.apple.security.network.server</key>
+		<true/>
+		<!-- NEED TO HAVE IT DECLARE OUTSIDE OTHERWISE IT WONT FIND ID -->
+		<key>FacebookAppID</key>
+			<string></string>
+		<key>FacebookClientToken</key>
+				<string></string>
+		<key>FacebookDisplayName</key>
+			<string>WaveFinder</string>
+	</dict>
+	</plist>
+</dict>
+</plist>

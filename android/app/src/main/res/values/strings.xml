@@ -1,0 +1,11 @@
+<resources>
+    <!-- Define your Google Sign-In client ID -->
+    <string name="google_sign_in_client_id"></string>
+
+    <!-- Define your Google Sign-In client secret (if required) -->
+    <string name="google_sign_in_client_secret"></string>
+     <!-- Define your Facebook credentials -->
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
+    <string name="facebook_client_token"></string>
+</resources>
